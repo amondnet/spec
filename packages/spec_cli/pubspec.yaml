@@ -33,6 +33,10 @@ dev_dependencies:
 dependency_overrides:
   dart_test_adapter:
     path: ../dart_test_adapter
+  pubspec:
+    git:
+      url: https://github.com/amondnet/pubspec.git
+      ref: 71319f467dba14378b4676bf864dcbb84c4956de
 
 executables:
   spec: main
